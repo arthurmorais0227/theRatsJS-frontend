@@ -45,7 +45,7 @@
 }
 
 
-.pilula {
+.senaiSesi {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -61,15 +61,6 @@
   margin-bottom: 20px;
 }
 
-
-.ponto {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--primary);
-}
-
-
 .titulo {
   font-family: 'DM Serif Display', serif;
   font-size: clamp(2rem, 5vw, 3.25rem);
@@ -79,7 +70,7 @@
 }
 
 
-.destaque {
+.quemSomos {
   color: var(--primary);
 }
 
@@ -93,13 +84,13 @@
 }
 
 
-.stats {
+.dados {
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
 }
 
-.statNumero {
+.dadoNumero {
   font-size: 1.5rem;
   font-weight: 500;
   display: flex;
@@ -107,7 +98,8 @@
 }
 
 
-.statRotulo {
+.dadoRotulogit init
+git add {
   font-size: 0.8125rem;
   color: var(--muted);
 }

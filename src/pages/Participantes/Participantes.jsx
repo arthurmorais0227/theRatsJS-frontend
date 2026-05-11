@@ -113,17 +113,17 @@ export default function Participantes() {
         <section className={styles.hero}>
           <div className={styles.heroFundo} />
           <div className={styles.heroConteudo}>
-            <div className={styles.pilula}>
+            <div className={styles.senaiSesi}>
               <span className={styles.ponto} /> SENAI + SESI · 2026
             </div>
             <h1 className={styles.titulo}>
-              The Rats — <em className={styles.destaque}>{t.titulo}</em>
+              The Rats — <em className={styles.quemSomos}>{t.titulo}</em>
             </h1>
             <p className={styles.subtitulo}>{t.subtitulo}</p>
-            <div className={styles.stats}>
-              <div><span className={styles.statNumero}>{carregando ? "—" : participantes.length}</span><span className={styles.statRotulo}>{t.integrantes}</span></div>
-              <div><span className={styles.statNumero}>2</span><span className={styles.statRotulo}>{t.idioma}</span></div>
-              <div><span className={styles.statNumero}>1</span><span className={styles.statRotulo}>{t.grandeObra}</span></div>
+            <div className={styles.dados}>
+              <div><span className={styles.dadoNumero}>{carregando ? "—" : participantes.length}</span><span className={styles.dadoRotulo}>{t.integrantes}</span></div>
+              <div><span className={styles.dadoNumero}>2</span><span className={styles.dadoRotulo}>{t.idioma}</span></div>
+              <div><span className={styles.dadoNumero}>1</span><span className={styles.dadoRotulo}>{t.grandeObra}</span></div>
             </div>
           </div>
         </section>
